@@ -72,3 +72,4 @@ Creative Commons BY-SA 4.0 → tu peux vendre les imprimés, mais partage les mo
 Fabrique, joue, explose les ballons des autres et surtout : éclate-toi !
 
 Made with ❤️ par la communauté maker – 2025
+#SkyStrider #LaserTagDrone #Playmobil #OpenSourceToy #FlyingToy #WalkingRobot #3DPrinted #IndoorRacing #SafeLaser #Maker

@@ -1,0 +1,51 @@
+Réglementation des drones aux États-Unis (mises à jour 2025)
+Voici un résumé détaillé et actualisé des réglementations FAA (Federal Aviation Administration) pour les drones aux États-Unis en 2025, en se focalisant sur les drones récréatifs/jouets de moins de 250 g (comme ton SkyStrider). J'ai basé ça sur les règles officielles FAA et FDA, avec un accent sur les exemptions pour les petits engins, les lasers classe 1, et les implications pour un projet open-source DIY. Ces infos sont tirées des sources officielles et guides récents – toujours vérifie sur faa.gov pour les dernières mises à jour, car les règles évoluent vite (ex. : renforcement du Remote ID en 2025).
+1. Classification générale des drones
+
+Poids critique : 250 g (0,55 lb) : C'est le seuil magique pour les exemptions. Ton SkyStrider (160–190 g) tombe dans la catégorie "sub-250g", ce qui allège énormément les contraintes pour un usage récréatif (fun personnel, pas commercial).
+Usage récréatif vs. commercial :
+Récréatif : Vol pour le plaisir (ex. : courses dans le salon, tests DIY). Exemptions maximales sous-250g.
+Commercial (Part 107) : Si tu monétises (ex. : vidéos YouTube payées, vente de plans modifiés), même un drone <250g doit être enregistré et suivre Part 107 – pas d'exemption.
+
+Règles de base pour tous (même sub-250g récréatif) :
+Vol à vue (VLOS : visual line of sight), max 400 ft (122 m) d'altitude.
+Pas au-dessus de foules, évite les zones restreintes (aéroports, stades, sites fédéraux – check via app B4UFLY).
+Test TRUST gratuit obligatoire (The Recreational UAS Safety Test) pour tout pilote récréatif – c'est un quiz en ligne rapide, valable à vie.
+
+
+2. Enregistrement et identification (Remote ID)
+
+Enregistrement FAA :
+Sub-250g récréatif : Exempt total ! Pas besoin d'enregistrer le drone ni d'afficher un numéro. Idéal pour ton jouet DIY.
+Si >250g ou commercial : Enregistrement obligatoire (5$/3 ans via DroneZone), numéro visible sur le drone.
+
+Remote ID (broadcast d'ID en vol) :
+Sub-250g récréatif : Exempt ! Pas besoin de module ou de signal GPS. Tu peux voler librement sans ça, tant que c'est indoor ou en zones privées.
+Exceptions : Dans les FAA-Recognized Identification Areas (FRIAs, comme des clubs de modélisme), même sans Remote ID. Mais en 2025, l'application est plus stricte pour les vols outdoor – reste indoor pour ton SkyStrider.
+
+
+3. Lasers classe 1 dans les jouets/drones
+
+Réglementés par la FDA (Food and Drug Administration), pas la FAA directement (sauf si ça impacte la sécurité aérienne).
+Classe 1 : Considérés comme "non dangereux" – zéro risque pour les yeux ou la peau, même en exposition directe prolongée (puissance ≤1 mW). Parfait pour ton système laser tag (point lumineux pour "marquer" sans contact).
+Conformité pour jouets :
+Doivent respecter le Code of Federal Regulations (21 CFR Parts 1010 et 1040) pour les produits laser. Pas d'étiquetage obligatoire pour classe 1 (contrairement aux classes 2–4).
+Pour les drones/jouets : OK pour usage récréatif, tant que c'est intégré comme un "pointer de chat" ou laser jouet (ex. : pas de beam collimé puissant). Pas de prohibition spécifique en 2025 pour les mods DIY, mais évite les upgrades à >1 mW – ça passe en classe 2 et nécessite warnings.
+
+Risques : Si le laser est vu comme "mod dangereux" (ex. : dirigé vers des avions ou personnes), la FAA peut intervenir sous "endangerment". Pour indoor/salon, c'est safe. Ajoute un disclaimer dans ton repo : "Lasers classe 1 only, no eye exposure."
+
+4. Règles spécifiques pour jouets/modifications open-source
+
+Modifications DIY : La FAA tolère les builds perso (comme ton SkyStrider imprimé 3D), tant que ça reste <250g et récréatif. Pas de certification requise, mais respecte les safety guidelines (ex. : pas de pièces exposées qui tournent près des gens – tes hélices carénées aident).
+Vol over people : Sub-250g exempt de waivers pour voler au-dessus de personnes (catégorie 1), tant que pas de pièces rotatives exposées – top pour courses familiales.
+États et locales : Règles fédérales priment, mais certains États (ex. : Californie, Floride) ajoutent des restrictions sur privacy ou vols près des prisons. Check par État via apps comme AirMap.
+Pour open-source (GitHub) : Pas de souci tant que tu précises "récréatif only, sub-250g, comply with local laws". Évite de promouvoir des usages "weaponized" (même laser tag indoor est OK si inoffensif).
+
+5. Conseils pour SkyStrider aux US
+
+Safe start : Test indoor (salon/jardin privé) pour éviter amendes (jusqu'à 1 500$ pour violations basiques).
+Outils utiles : App B4UFLY pour zones, TRUST test gratuit sur faa.gov.
+Évolutions 2025 : Plus d'emphase sur BVLOS (beyond visual line of sight) pour pros, mais rien de neuf pour hobby sub-250g. Remote ID étendu aux >250g seulement.
+Comparaison UE/FR : Plus laxiste qu'en Europe (pas d'enregistrement sub-250g récréatif), mais TRUST remplace un peu le brevet.
+
+Si tu veux intégrer ça dans ton LEGAL.md US-specific, ou checker un État précis, dis-moi ! 😄

@@ -1,0 +1,87 @@
+Réglementations sur les drones au Canada (mises à jour 2025)
+Voici un résumé détaillé et actualisé des réglementations canadiennes sur les drones (ou Remotely Piloted Aircraft Systems – RPAS) en date du 28 novembre 2025, basé sur les directives de Transports Canada (Transport Canada). Ces règles ont été modifiées en deux phases : la phase 1 a pris effet le 1er avril 2025, et la phase 2 le 4 novembre 2025. Les changements visent à simplifier les opérations avancées (comme les vols BVLOS – Beyond Visual Line-of-Sight) tout en renforçant la sécurité, sans distinction entre usages récréatifs et professionnels. Toujours vérifiez les mises à jour officielles sur tc.canada.ca, car les règles évoluent.
+Je me concentre sur les drones récréatifs/jouets (comme un petit modèle <250 g, similaire à ton SkyStrider), mais je couvre aussi les aspects généraux pour un projet open-source DIY.
+1. Classification des drones par poids et opérations
+Les catégories dépendent du poids, de la distance aux personnes et des règles d'espace aérien. Depuis le 4 novembre 2025, les drones sont classés en micro, petits et moyens, avec des règles adaptées aux opérations (basic, advanced, complex).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CatégoriePoidsExigences principalesExemples d'opérations autoriséesMicrodrone< 250 gPas d'enregistrement ni de licence pilote requise, mais respect des règles de base (VLOS, pas près des gens).Vols récréatifs indoor/salon, courses familiales. Interdit de voler de manière négligente (risque pour l'aviation ou les personnes).Petit drone250 g – 25 kgEnregistrement obligatoire + pilote certifié (Basic ou Advanced).Vols VLOS (à vue) ; depuis nov. 2025, BVLOS possible avec certification Advanced sur zones peu peuplées (<1 km des zones habitées).Moyen drone25 – 150 kgDéclaration de sécurité + pilote Advanced ; vol VLOS sans SFOC (Special Flight Operations Certificate) dans l'espace aérien non contrôlé.Inspections, agriculture ; BVLOS avec approbation.Drone >150 kg>150 kgSFOC obligatoire pour tout vol.Opérations spéciales (ex. : transport lourd).
+
+Opérations avancées (depuis nov. 2025) : BVLOS, EVLOS (Extended VLOS) et "Sheltered" (vols protégés) autorisés pour les pilotes certifiés Advanced/Complex, sans SFOC systématique. Idéal pour les pros, mais les microdrones restent simples.
+Espace aérien : Interdit dans les zones restreintes (aéroports, parcs nationaux, événements publics) sans autorisation. Utilisez l'app NAV Drone pour vérifier.
+
+2. Enregistrement et marquage
+
+Microdrones (<250 g) : Exempt total ! Pas d'enregistrement ni de marquage requis. Parfait pour un jouet DIY comme SkyStrider (160–190 g).
+Drones 250 g – 25 kg : Enregistrement obligatoire auprès de Transports Canada (5–10 CAD, valable 1 an) via le Drone Management Portal. Affichez le numéro d'enregistrement de manière visible sur le drone.
+Tous les drones : Considérés comme des aéronefs sous la Loi sur l'aéronautique ; pénalités jusqu'à 1 000 CAD pour non-conformité.
+
+3. Certification des pilotes
+
+Microdrones : Aucune licence requise, mais vous devez connaître les règles (test en ligne gratuit recommandé via RPAS 101 guide).
+Autres drones :
+Basic : Examen en ligne (30 questions, 65 % de réussite) pour vols simples (VLOS, loin des gens).
+Advanced : Examen + vol pratique supervisé ; permet BVLOS et vols près des personnes (depuis nov. 2025).
+Level 1 Complex : Pour opérations avancées (ex. : >400 ft d'altitude) ; examen disponible depuis avril 2025.
+
+Coût : Examens gratuits ; renouvellement tous les 24 mois. Portez toujours votre certificat (papier ou numérique) lors des vols.
+
+4. Règles d'opérations générales
+
+Visibilité et altitude : Toujours VLOS (à vue directe) sauf pour BVLOS certifié ; max 122 m (400 ft) d'altitude ; pas au-dessus de foules ou zones sensibles.
+Conditions météo : Vols interdits en vent fort, brouillard ou conditions dangereuses. Vérifiez via NAV Drone ou apps comme Drone Site Selection Tool (DSST 2, mise à jour oct. 2025).
+Événements : Depuis avril 2025, SFOC requis pour microdrones à des événements publicitaires (ex. : festivals).
+Frais : Nouveaux frais pour SFOC (sauf urgences gouvernementales) ; services en ligne (certificats, etc.) facturés depuis 2025.
+
+5. Aspects spécifiques pour jouets/mods open-source (comme SkyStrider)
+
+Lasers classe 1 : Réglementés par Santé Canada (similaire à la FDA US). Classe 1 (≤1 mW) est inoffensive (pas de risque oculaire), conforme à la norme CSA/ANSI Z136.1. OK pour "laser tag" indoor sans contact physique. Ajoutez un avertissement : "Ne pas modifier pour plus de puissance."
+Sécurité jouets : Respectez la Loi sur la sécurité des produits de consommation (petites pièces, pas de risques d'étouffement). Pour enfants <8 ans, supervision adulte obligatoire.
+Mods DIY : Tolérés si <250 g et récréatifs ; pas de certification requise. Mais évitez les usages "risqués" (ex. : lasers puissants) pour ne pas être requalifié en "opérations complexes."
+Pénalités : Amendes de 250–1 000 CAD pour violations mineures ; jusqu'à 5 000 CAD pour négligence grave. Transports Canada renforce les outils contre les infractions répétées depuis 2025.
+
+6. Conseils pour SkyStrider au Canada
+
+Usage safe : Limitez aux vols indoor/privés pour éviter les amendes. Testez en salon pour valider le laser tag (inoffensif et fun).
+Outils utiles :
+Drone Management Portal pour enregistrement/examens.
+NAV Drone app (mise à jour juin 2025) pour zones et météo.
+Guide RPAS 101 (gratuit) pour débutants.
+
+Évolutions 2025 : Plus de flexibilité pour BVLOS (utile pour pros), mais rien de contraignant pour microdrones récréatifs. L'industrie (agriculture, inspections) applaudit les changements.
+
+Comparé aux US (FAA), le Canada est similaire pour <250 g (exemptions), mais plus structuré pour les certifications. Si tu vises un repo GitHub international, ajoute une section Canada dans LEGAL.md avec ces infos.
+Besoin de détails sur une province spécifique (ex. : Québec) ou une comparaison UE ? 😄

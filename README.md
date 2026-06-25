@@ -73,3 +73,8 @@ Fabrique, joue, explose les ballons des autres et surtout : éclate-toi !
 
 Made with ❤️ par la communauté maker – 2025
 #SkyStrider #LaserTagDrone #Playmobil #OpenSourceToy #FlyingToy #WalkingRobot #3DPrinted #IndoorRacing #SafeLaser #Maker
+
+
+---
+
+[![Donate](https://img.shields.io/badge/☕%20Soutenir-BTC%20%7C%20ETH-orange)](DONATE.md)
